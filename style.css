@@ -1,0 +1,86 @@
+/*Going and getting the font*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap");
+body{
+  margin: 0;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  width: 330px;
+  margin: 2em;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  align-self: center;
+}
+h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+h3, p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+h1 {
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 81px;
+  color: #000000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menu {
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+#topbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+  background: #dcb568;
+  padding-top: 5em;
+  padding-bottom: 0.75em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p {
+  max-width: 1200px;
+}
+#experience, #tagline {
+  background: #3D808E;
+}
+#tagline > p {
+  color: white;
+  padding: 2em 0;
+}
